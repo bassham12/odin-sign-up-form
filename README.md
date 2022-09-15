@@ -1,5 +1,5 @@
 # odin-sign-up-form
- Photo is by Halie West on Unsplash
+ Background photo is by Halie West on Unsplash
 
  create a sign up form for Odin 
  have the logo to the left side 
