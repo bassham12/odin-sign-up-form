@@ -18,24 +18,23 @@
   background-image: url(./img/halie-west-25xggax4bSA-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 35vh;
-  width: 45vw;
+  width: 40%;
   min-width: 300px;
   color: rgb(220, 220, 220, 8);
 }
 
 #logo {
-  margin: auto auto;
+  margin: 50% auto;
   width: calc(4em + 20%);
   background: rgba(0, 0, 0, 0.580);
   font-size: 3em;
-  letter-spacing: .2em;
+  letter-spacing: .2rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#logo>img {
+#logo > img {
   width: 20%;
   height: 20%;
   margin-right: 20px;
@@ -43,10 +42,9 @@
 
 #logo-caption {
   display: block;
-  position: relative;
   text-align: center;
-  margin-top: 200px;
 }
+
 
 
 /************** Form container ************************/
@@ -56,9 +54,13 @@
 }
 
 .sign-up-container>blockquote {
-  margin-top: 40px;
+  padding: 1.5rem;
 }
 
+.sign-up-container > blockquote > span {
+  display: block;
+  margin-top: 15px;
+}
 
 .form-container {
   display: block;
@@ -79,7 +81,6 @@
 form > div {
   display: flex;
   flex-direction: column;
-  margin-top: 10px;
 }
 
 form > div > input {
