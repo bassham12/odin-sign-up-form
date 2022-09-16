@@ -20,6 +20,7 @@
   background-size: cover;
   padding-top: 35vh;
   width: 45vw;
+  min-width: 300px;
   color: rgb(220, 220, 220, 8);
 }
 
@@ -40,9 +41,11 @@
   margin-right: 20px;
 }
 
-.logo-caption {
+#logo-caption {
+  display: block;
+  position: relative;
   text-align: center;
-  margin-top: 80vh;
+  margin-top: 200px;
 }
 
 
@@ -51,3 +54,4 @@
 
 
 /************** Form container ************************/
+
