@@ -9,56 +9,60 @@
 </head>
 <body>
   <div class="container">
-    <section id="logo-section">
+    <div id="logo-container">
       <div id="logo">
-        <img src="./img/odin-logo.png" width="100" height="100" alt="odin logo" />
+        <img src="./img/odin-logo.png" width="100" height="100" alt="odin logo" class="logo-img" />
         <span id="logo-header">ODIN</span>
       </div>
-    </section>
+      <span class="logo-caption">Photo by Halie West from unsplash.com</span>
+    </div>
     
     <section class="sign-up-container">
-      <div>
+      <blockquote>
         <p>
           This is not a real online service! You know you need something like this 
           in your life to help you realize your deepest dreams. <br>
           Sign up now to get started.
         </p>
         <span>You know you want to.</span>
+      </blockquote>
+      
+      <div class="form-sign-up">
+        <form method="post">
+          <div>
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName" placeholder="Thor" required />
+          </div>
+
+          <div>
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastName" placeholder="Odinson" required />
+          </div>
+
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div>
+            <label for="phone">Phone Number</label>
+            <input type="number" id="phone" name="phone" />
+          </div>
+
+          <div>
+            <label for="password">password</label>
+            <input type="password" id="password" name="password" required />
+          </div>
+
+          <div>
+            <label for="confirmPassword">Confirm Password</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required />
+          </div>
+        </form>
+        <div>
+
       </div>
       
-      <form method="post" class="form-sign-up">
-        <div>
-          <label for="firstName">First Name</label>
-          <input type="text" id="firstName" name="firstName" placeholder="Thor" required />
-        </div>
-
-        <div>
-          <label for="lastName">Last Name</label>
-          <input type="text" id="lastName" name="lastName" placeholder="Odinson" required />
-        </div>
-
-        <div>
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" required />
-        </div>
-
-        <div>
-          <label for="phone">Phone Number</label>
-          <input type="number" id="phone" name="phone" />
-        </div>
-
-        <div>
-          <label for="password">password</label>
-          <input type="password" id="password" name="password" required />
-        </div>
-
-        <div>
-          <label for="confirmPassword">Confirm Password</label>
-          <input type="password" id="confirmPassword" name="confirmPassword" required />
-        </div>
-      </form>
-
-      <div>
         <button type="submit" id="createAccount" class="btn" >Create Account</button>
         <span>Already have an account? <a>Log in</a></span>
       </div>
