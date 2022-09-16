@@ -49,9 +49,64 @@
 }
 
 
-  
-
-
-
 /************** Form container ************************/
 
+.sign-up-container {
+  background-color: rgba(220, 220, 220, 0.280);
+}
+
+.sign-up-container>blockquote {
+  margin-top: 40px;
+}
+
+
+.form-container {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+.form-container > form {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  box-shadow: 5px 10px 10px rgba(0,0,0,0.580);
+  background-color: #fff;
+}
+
+form > div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+form > div > input {
+  border-radius: 5px;
+  margin-top: 5px;
+  height: 1.7em;
+}
+
+.account-registry {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 40px;
+}
+
+.account-registry > .btn {
+  width: 150px;
+  height: 2.5em;
+  color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+  background-color: #3e7232f3;
+}
+
+.account-registry > span {
+  margin-top: 10px;
+}
+
+.account-registry > a {
+  color: #3e7232f3;
+}
